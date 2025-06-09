@@ -1,7 +1,5 @@
 # 💼 Steven Echeverria – Developer Portfolio
 
-![Portfolio Preview](public/githubportfolio.png)
-
 This is my personal full-stack developer portfolio, built to showcase my projects, skills, and background as I pursue a software engineering career. It's designed with performance, aesthetics, and real-world functionality in mind.
 
 ---
