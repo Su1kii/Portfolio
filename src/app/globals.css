@@ -268,14 +268,6 @@ body {
   animation-timeline: view();
 }
 
-/* Disable blur animation on small screens */
-@media (max-width: 768px) {
-  .autoBlur {
-    animation: none !important;
-    filter: none !important;
-    opacity: 1 !important;
-  }
-}
 @keyframes autoBlurAnimation {
   0% {
     filter: blur(40px);
@@ -453,4 +445,15 @@ body {
 
 .animate-marquee-right {
   animation: marquee-right 20s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .autoBlur,
+  .fadein-left,
+  .autoDisplay {
+    animation: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
