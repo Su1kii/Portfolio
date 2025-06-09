@@ -267,6 +267,15 @@ body {
   animation: autoBlurAnimation linear both;
   animation-timeline: view();
 }
+
+/* Disable blur animation on small screens */
+@media (max-width: 768px) {
+  .autoBlur {
+    animation: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+}
 @keyframes autoBlurAnimation {
   0% {
     filter: blur(40px);
