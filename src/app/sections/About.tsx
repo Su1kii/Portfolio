@@ -131,19 +131,21 @@ const About = () => {
         </div>
 
         {/* Grid 5 */}
-        <div className="grid-default-color grid-5 relative flex flex-col justify-center items-center text-center gap-6 overflow-hidden pt-10 pb-14">
-          <div className="z-10 max-w-xl px-4">
-            <p className="headtext mb-2">💻 Tech Stack</p>
-            <p className="subtext">
+        <div className="grid-default-color grid-5 relative flex flex-col justify-center items-center text-center gap-6 overflow-hidden px-4 pt-10 pb-14">
+          <div className="z-10 max-w-xl">
+            <p className="text-2xl sm:text-3xl font-semibold mb-2">
+              💻 Tech Stack
+            </p>
+            <p className="text-sm sm:text-base text-neutral-300">
               I specialize in using modern languages, frameworks, and tools that
               help me build full-stack web applications that are fast, scalable,
               and user-friendly.
             </p>
           </div>
 
-          {/* Fast Row */}
-          <div className="w-full relative h-16 overflow-hidden">
-            <div className="flex animate-marquee-right gap-10 w-max">
+          {/* Fast Row – always visible */}
+          <div className="w-full relative h-14 sm:h-16 overflow-hidden">
+            <div className="flex animate-marquee-right gap-6 sm:gap-10 w-max">
               {[...Array(2)].flatMap((_, loopIndex) =>
                 topTechStack.map((tech, techIndex) => (
                   <img
@@ -151,17 +153,18 @@ const About = () => {
                     src={`${tech}.svg`}
                     alt={tech}
                     title={tech.toUpperCase()}
-                    className="h-9 w-9 sm:h-10 sm:w-10 hover:scale-110 transition-transform duration-200"
+                    className="h-8 w-8 sm:h-10 sm:w-10 hover:scale-110 transition-transform duration-200"
                   />
                 ))
               )}
             </div>
           </div>
 
-          <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+          {/* Divider – only on desktop */}
+          <div className="hidden sm:block w-full h-[2px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
-          {/* Slow Row */}
-          <div className="w-full relative h-16 overflow-hidden">
+          {/* Slow Row – only on desktop */}
+          <div className="hidden sm:block w-full relative h-16 overflow-hidden">
             <div className="flex animate-marquee-left gap-10 w-max">
               {[...Array(2)].flatMap((_, loopIndex) =>
                 bottomTechStack.map((tech, techIndex) => (
@@ -170,7 +173,7 @@ const About = () => {
                     src={`${tech}.svg`}
                     alt={tech}
                     title={tech.toUpperCase()}
-                    className="h-9 w-9 sm:h-10 sm:w-10 hover:scale-110 transition-transform duration-200"
+                    className="h-10 w-10 hover:scale-110 transition-transform duration-200"
                   />
                 ))
               )}
