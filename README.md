@@ -38,6 +38,10 @@ This is my personal full-stack developer portfolio, built to showcase my project
 
 ---
 
+📄 License
+MIT License
+© 2025 Steven Echeverria
+
 ## 🚀 Run Locally
 
 ```bash
@@ -45,6 +49,3 @@ git clone https://github.com/yourusername/githubportfolio.git
 cd githubportfolio
 npm install
 npm run dev
-📄 License
-MIT License
-© 2025 Steven Echeverria
