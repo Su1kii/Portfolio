@@ -31,20 +31,20 @@ const projects = [
     comingSoon: false,
   },
   {
-    id: "ecommerce-app",
-    title: "E-commerce Platform – Full-Stack Build",
-    image: "e-commerce.png",
-    description:
-      "A complete online shopping experience with payment integration, product filtering, and admin controls.",
-    href: "#",
-    comingSoon: true,
-  },
-  {
     id: "dealership-app",
     title: "Dealership App – Inventory System",
     image: "car.png",
     description:
       "A role-based car dealership platform for managing listings, invoices, and direct customer inquiries.",
+    href: "https://orginal-design-dealership.vercel.app/",
+    comingSoon: false,
+  },
+  {
+    id: "ecommerce-app",
+    title: "E-commerce Platform – Full-Stack Build",
+    image: "e-commerce.png",
+    description:
+      "A complete online shopping experience with payment integration, product filtering, and admin controls.",
     href: "#",
     comingSoon: true,
   },
