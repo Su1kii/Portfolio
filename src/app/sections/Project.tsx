@@ -1,5 +1,6 @@
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
+import Link from "next/link";
 import styles from "./ProjectsSection.module.css";
 
 const projects = [
@@ -33,7 +34,7 @@ const projects = [
   {
     id: "dealership-app",
     title: "Dealership App – Inventory System",
-    image: "car.png",
+    image: "OD1.png",
     description:
       "A role-based car dealership platform for managing listings, invoices, and direct customer inquiries.",
     href: "https://orginal-design-dealership.vercel.app/",
@@ -54,6 +55,7 @@ export default function ProjectsSection() {
   return (
     <section className="my-project" id="projects">
       <h1 className="section-title autoDisplay text-heading">My Projects</h1>
+
       {projects.map(({ id, title, image, description, href, comingSoon }) => (
         <div key={id} className="project-card group">
           <div className="project-vidbox autoBlur relative overflow-hidden rounded-lg transition-transform duration-300 ease-in-out transform group-hover:scale-[1.02] group-hover:shadow-2xl">
@@ -89,10 +91,10 @@ export default function ProjectsSection() {
                   : title.includes("Expense")
                   ? "React, TypeScript, Tailwind CSS, Prisma, Clerk"
                   : title.includes("CSIS")
-                  ? "HTML5, CSS3, JavaScript"
+                  ? "HTML5, CSS3, JavaScript, Bootstrap"
                   : title.includes("E-commerce")
                   ? "Next.js, TypeScript, Prisma, PostgreSQL, Tailwind CSS, Stripe, Clerk"
-                  : "Next.js, TypeScript, PostgreSQL, Prisma, Tailwind CSS, Clerk"}
+                  : "Next.js, TypeScript, PostgreSQL, Prisma, Tailwind CSS, Clerk, Stripe"}
               </span>
             </p>
             {!comingSoon && (
@@ -106,6 +108,15 @@ export default function ProjectsSection() {
           </div>
         </div>
       ))}
+
+      {/* 🔗 See All Projects CTA */}
+      <div className="text-center mt-10">
+        <Link href="/projects">
+          <button className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-full shadow-md hover:bg-yellow-300 transition duration-300">
+            See All Projects →
+          </button>
+        </Link>
+      </div>
     </section>
   );
 }
