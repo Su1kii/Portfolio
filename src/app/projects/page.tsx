@@ -4,6 +4,16 @@ import Link from "next/link";
 
 const projects = [
   {
+    id: "music-lounge",
+    title: "Music Lounge – Real-Time Chat & Music App",
+    image: "music.png",
+    description:
+      "A Flask-based web app combining real-time group chat, a dynamic music player, and custom avatars. Users can set their name, pick or upload a profile picture, and chat while listening together.",
+    href: "https://music-lounge-flask.onrender.com/",
+    comingSoon: false,
+    tags: ["Python", "Flask", "HTML", "CSS", "JavaScript", "Socket.IO"],
+  },
+  {
     id: "carventory",
     title: "Carventory – Full-Stack Vehicle Platform",
     image: "/carventory.png",
