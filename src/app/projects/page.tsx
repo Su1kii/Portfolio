@@ -107,6 +107,26 @@ const projects = [
       "Clerk.dev",
     ],
   },
+  {
+    id: "portfolio1231",
+    title: "Next.js Portfolio – Personal Site",
+    image: "Portfolio1231",
+    description:
+      "A modern developer portfolio built with Next.js, TypeScript, and Tailwind CSS to showcase my skills, projects, and contact info.",
+    href: "https://portfolio-git-master-su1kiis-projects.vercel.app/",
+    comingSoon: false,
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    id: "product-store",
+    title: "Product Store – MERN Stack Inventory App",
+    image: "ProductStore",
+    description:
+      "A full-stack CRUD app using the MERN stack, Zustand, and Chakra UI. Allows users to create, update, delete, and view products with live UI feedback.",
+    href: "https://product-store-qfn5.onrender.com/",
+    comingSoon: false,
+    tags: ["MongoDB", "Express", "React", "Node.js", "Zustand", "Chakra UI", "Vite"],
+  },
 ];
 
 export default function ProjectsPage() {
