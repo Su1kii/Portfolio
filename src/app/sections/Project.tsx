@@ -5,33 +5,6 @@ import styles from "./ProjectsSection.module.css";
 
 const projects = [
   {
-    id: "carventory",
-    title: "Carventory – Full-Stack Vehicle Platform",
-    image: "carventory.png",
-    description:
-      "An advanced car inventory system with admin access, secure logins, and real-time listing management.",
-    href: "https://carventory.vercel.app",
-    comingSoon: false,
-  },
-  {
-    id: "expense-tracker",
-    title: "Expense Tracker – Personal Finance Tool",
-    image: "expense.png",
-    description:
-      "A lightweight budgeting app for tracking daily income, expenses, and balances with ease.",
-    href: "https://expense-tracker-hazel-seven-88.vercel.app/",
-    comingSoon: false,
-  },
-  {
-    id: "csis-1430",
-    title: "CSIS 1430 Capstone – Personal Website",
-    image: "school.png",
-    description:
-      "A polished personal portfolio showcasing skills, animations, and responsive design learned during this course.",
-    href: "http://www.steven-e.ct.ws/?i=2",
-    comingSoon: false,
-  },
-  {
     id: "dealership-app",
     title: "Dealership App – Inventory System",
     image: "OD1.png",
@@ -40,14 +13,35 @@ const projects = [
     href: "https://orginal-design-dealership.vercel.app/",
     comingSoon: false,
   },
-  {
-    id: "ecommerce-app",
-    title: "E-commerce Platform – Full-Stack Build",
-    image: "e-commerce.png",
+ {
+  id: "music-lounge",
+  title: "Music Lounge – MERN Stack Spotify Clone",
+  image: "/MusicL.png",
+  description:
+    "A full-stack Spotify-inspired music platform with real-time messaging, user presence, song and album management, and secure authentication.",
+  href: "https://music-lounge-mern.onrender.com/",
+  comingSoon: false,
+  tags: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "TypeScript",
+    "Clerk",
+    "Tailwind",
+    "Socket.IO",
+    "Cloudinary",
+    "axios",
+  ],
+},
+{
+    id: "carventory",
+    title: "Carventory – Full-Stack Vehicle Platform",
+    image: "carventory.png",
     description:
-      "A complete online shopping experience with payment integration, product filtering, and admin controls.",
-    href: "#",
-    comingSoon: true,
+      "An advanced car inventory system with admin access, secure logins, and real-time listing management.",
+    href: "https://carventory.vercel.app",
+    comingSoon: false,
   },
 ];
 
