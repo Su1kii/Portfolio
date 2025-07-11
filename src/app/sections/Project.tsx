@@ -86,8 +86,8 @@ export default function ProjectsSection() {
                   ? "React, TypeScript, Tailwind CSS, Prisma, Clerk"
                   : title.includes("CSIS")
                   ? "HTML5, CSS3, JavaScript, Bootstrap"
-                  : title.includes("E-commerce")
-                  ? "Next.js, TypeScript, Prisma, PostgreSQL, Tailwind CSS, Stripe, Clerk"
+                  : title.includes("Music")
+                  ? "MongoDB, Express.js, React, Node.js, TypeScript, Tailwind CSS, Clerk, Socket.IO, Cloudinary, Axios"
                   : "Next.js, TypeScript, PostgreSQL, Prisma, Tailwind CSS, Clerk, Stripe"}
               </span>
             </p>
