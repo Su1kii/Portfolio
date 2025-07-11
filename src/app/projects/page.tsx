@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const projects = [
   {
-    id: "music-lounge",
-    title: "Music Lounge – Real-Time Chat & Music App",
+    id: "music-loungeF",
+    title: "Music Lounge (Flask) – Real-Time Chat & Music App",
     image: "music.png",
     description:
       "A Flask-based web app combining real-time group chat, a dynamic music player, and custom avatars. Users can set their name, pick or upload a profile picture, and chat while listening together.",
@@ -137,6 +137,27 @@ const projects = [
     comingSoon: false,
     tags: ["MongoDB", "Express", "React", "Node.js", "Zustand", "Chakra UI", "Vite"],
   },
+  {
+  id: "music-lounge",
+  title: "Music Lounge – MERN Stack Spotify Clone",
+  image: "/MusicL.png",
+  description:
+    "A full-stack Spotify-inspired music platform with real-time messaging, user presence, song and album management, and secure authentication.",
+  href: "https://music-lounge-mern.onrender.com/",
+  comingSoon: false,
+  tags: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "TypeScript",
+    "Clerk",
+    "Tailwind",
+    "Socket.IO",
+    "Cloudinary",
+    "axios",
+  ],
+}
 ];
 
 export default function ProjectsPage() {
