@@ -157,8 +157,26 @@ const projects = [
     "Cloudinary",
     "axios",
   ],
-}
-];
+{
+  id: "nuvue-social",
+  title: "📸 Nuvue – Social Media App (FastAPI + React)",
+  image: "NuvueSocialApp.png",
+  description:
+    "Nuvue is a fullstack Instagram-style app where users can register, log in, create posts, comment, and interact in a clean, responsive UI.",
+  href: "https://nuvue-phi.vercel.app/",
+  comingSoon: false,
+  tags: [
+    "FastAPI",
+    "React",
+    "TailwindCSS",
+    "PostgreSQL",
+    "SQLAlchemy",
+    "JWT Auth",
+    "bcrypt",
+    "Uvicorn",
+    "Python",
+  ],
+},
 
 export default function ProjectsPage() {
   return (
