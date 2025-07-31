@@ -6,42 +6,53 @@ import styles from "./ProjectsSection.module.css";
 const projects = [
   {
     id: "dealership-app",
-    title: "Dealership App – Inventory System",
+    title: "🏎️ Dealership App – Inventory System",
     image: "OD1.png",
     description:
       "A role-based car dealership platform for managing listings, invoices, and direct customer inquiries.",
     href: "https://orginal-design-dealership.vercel.app/",
     comingSoon: false,
   },
- {
-  id: "music-lounge",
-  title: "Music Lounge – MERN Stack Spotify Clone",
-  image: "/MusicL.png",
-  description:
-    "A full-stack Spotify-inspired music platform with real-time messaging, user presence, song and album management, and secure authentication.",
-  href: "https://music-lounge-mern.onrender.com/",
-  comingSoon: false,
-  tags: [
-    "MongoDB",
-    "Express.js",
-    "React",
-    "Node.js",
-    "TypeScript",
-    "Clerk",
-    "Tailwind",
-    "Socket.IO",
-    "Cloudinary",
-    "axios",
-  ],
-},
-{
-    id: "carventory",
-    title: "Carventory – Full-Stack Vehicle Platform",
-    image: "carventory.png",
+  {
+    id: "music-lounge",
+    title: "🎵 Music Lounge – MERN Stack Spotify Clone",
+    image: "/MusicL.png",
     description:
-      "An advanced car inventory system with admin access, secure logins, and real-time listing management.",
-    href: "https://carventory.vercel.app",
+      "A full-stack Spotify-inspired music platform with real-time messaging, user presence, song and album management, and secure authentication.",
+    href: "https://music-lounge-mern.onrender.com/",
     comingSoon: false,
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Clerk",
+      "Tailwind",
+      "Socket.IO",
+      "Cloudinary",
+      "axios",
+    ],
+  },
+  {
+    id: "nuvue-social",
+    title: "📸 Nuvue – Social Media App (FastAPI + React)",
+    image: "NuvueSocialApp.png",
+    description:
+      "Nuvue is a fullstack Instagram-style app where users can register, log in, create posts, comment, and interact in a clean, responsive UI.",
+    href: "https://nuvue-phi.vercel.app/",
+    comingSoon: false,
+    tags: [
+      "FastAPI",
+      "React",
+      "TailwindCSS",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "JWT Auth",
+      "bcrypt",
+      "python-jose",
+      "Uvicorn",
+    ],
   },
 ];
 
@@ -80,8 +91,8 @@ export default function ProjectsSection() {
             <p className="text-yellow-400 font-semibold mt-2 mb-3">
               Tech Stack:{" "}
               <span className="text-yellow-300 font-medium">
-                {title.includes("Carventory")
-                  ? "Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, StackAuth"
+                {title.includes("Nuvue")
+                  ? "FastAPI, React, TailwindCSS, PostgreSQL, SQLAlchemy, JWT, bcrypt, Uvicorn"
                   : title.includes("Expense")
                   ? "React, TypeScript, Tailwind CSS, Prisma, Clerk"
                   : title.includes("CSIS")
