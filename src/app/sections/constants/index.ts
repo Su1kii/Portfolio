@@ -242,7 +242,7 @@ export const experiences = [
     job: "Family Business",
     date: "Jan 2021 – Aug 2024",
     contents: [
-      "Installed and configured workstations, networking devices, and essential software to boost system performance.",
+      "Installed and configured workstations, networking devices, and essential software, improving overall system performance.",
       "Reduced downtime by 40% through structured cable management, system labeling, and detailed documentation.",
       "Maintained regular backups of critical data, achieving 100% data recovery readiness.",
     ],
@@ -268,13 +268,14 @@ export const experiences = [
     ],
   },
   {
-  title: "Backend Developer",
-  job: "Freelance",
-  date: "May 2025 – Present",
-  contents: [
-    "Architected and delivered a full-featured dealership platform leveraging Next.js, Prisma, PostgreSQL, and Stripe, enabling seamless inventory and payment management.",
-    "Built secure, scalable backend infrastructure with Clerk authentication, recurring payment workflows, and robust file upload handling.",
-    "Automated invoice generation and agreement tracking in a comprehensive admin dashboard, improving operational efficiency and reducing manual errors.",
-    "Designed database schemas and optimized queries for high-performance data retrieval, ensuring fast, reliable application behavior."
-  ],
-}
+    title: "Backend Developer",
+    job: "Freelance",
+    date: "May 2025 – Present",
+    contents: [
+      "Architected and delivered a full-featured dealership platform using Next.js, Prisma, PostgreSQL, and Stripe, enabling seamless inventory and payment management.",
+      "Built secure and scalable backend infrastructure with Clerk authentication, recurring payment workflows, and robust file upload handling.",
+      "Automated invoice generation and agreement tracking within a comprehensive admin dashboard, improving operational efficiency and minimizing manual errors.",
+      "Designed optimized database schemas and queries for high-performance data retrieval, ensuring fast and reliable application behavior.",
+    ],
+  },
+];
