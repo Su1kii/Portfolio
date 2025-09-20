@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FlipWords } from "./FlipWord";
 
 const HeroText = () => {
-  const words = ["APIs", "Databases", "Cloud", "Security"];
+  const words = ["APIs", "Databases", "Cloud", "Security"]; // backend-focused keywords
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -32,7 +32,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ duration: 0.3 }}
           >
-            A Backend <br /> Engineer Focused on
+            A Backend Engineer <br /> Specializing in
           </motion.p>
 
           <motion.div
@@ -46,7 +46,6 @@ const HeroText = () => {
               className="font-black text-white text-8xl"
             />
           </motion.div>
-        
         </div>
       </div>
 
@@ -64,13 +63,13 @@ const HeroText = () => {
 
         <div>
           <motion.p
-            className="text-5xl font-black text-neutral-300 pb-4"
+            className="text-5xl font-medium text-neutral-300 pb-4"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ duration: 0.3 }}
           >
-            Building
+            Backend Engineer Focused On
           </motion.p>
 
           <motion.div
@@ -81,19 +80,9 @@ const HeroText = () => {
           >
             <FlipWords
               words={words}
-              className="font-bold text-white text-7xl pr-67"
+              className="font-bold text-white text-7xl pr-4"
             />
           </motion.div>
-
-          <motion.p
-            className="text-4xl font-black text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ duration: 0.3 }}
-          >
-            Web Applications
-          </motion.p>
         </div>
       </div>
     </div>
