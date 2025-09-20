@@ -2,21 +2,21 @@ import Image from "next/image";
 import { Fragment } from "react";
 
 const word = [
-  "Full-Stack Developer",
-  "React & Next.js",
+  "Backend Developer",
+  "Node.js & FastAPI",
+  "Java & Spring Boot",
   "TypeScript",
-  "Tailwind CSS",
   "Prisma & PostgreSQL",
-  "API Integration",
-  "Performance Optimization",
-  "Responsive Design",
-  "Pixel-Perfect UI",
-  "Clean Code",
-  "Agile Collaboration",
-  "CI/CD Workflow",
-  "SEO Best Practices",
+  "REST & GraphQL APIs",
   "Authentication & RBAC",
-  "Modern Web Apps",
+  "Database Design & Optimization",
+  "Server-Side Logic",
+  "Performance Optimization",
+  "CI/CD & Deployment",
+  "Docker & AWS",
+  "Secure File Uploads",
+  "Automated Workflows",
+  "Scalable Backend Systems",
 ];
 
 export const TapeSection = () => {
