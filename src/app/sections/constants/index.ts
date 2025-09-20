@@ -268,13 +268,13 @@ export const experiences = [
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025 – Present",
-    contents: [
-      "Developing a full-stack dealership management web app for a local automotive business using Next.js, TypeScript, Tailwind CSS, PostgreSQL, and Prisma.",
-      "Designed and deployed a personal developer portfolio using Three.js, React, and Vite to showcase technical skills and UI creativity.",
-      "Continuously enhancing expertise in modern web development, back-end infrastructure, and deployment workflows.",
-    ],
-  },
+  title: "Backend Developer",
+  job: "Freelance / Independent Contractor",
+  date: "May 2025 – Present",
+  contents: [
+    "Delivered a full dealership platform with Next.js, Prisma, PostgreSQL, and Stripe payments.",
+    "Implemented secure backend infrastructure with Clerk authentication, recurring payments, and file uploads.",
+    "Automated invoice generation and agreement tracking in an admin dashboard."
+  ],
+}
 ];
