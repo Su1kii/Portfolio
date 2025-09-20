@@ -2,7 +2,7 @@ import React from "react";
 import { FiExternalLink, FiArrowLeft } from "react-icons/fi";
 import Link from "next/link";
 
-const projects = [
+export const projects = [
   {
     id: "music-loungeF",
     title: "Music Lounge (Flask) – Real-Time Chat & Music App",
@@ -138,45 +138,48 @@ const projects = [
     tags: ["MongoDB", "Express", "React", "Node.js", "Zustand", "Chakra UI", "Vite"],
   },
   {
-  id: "music-lounge",
-  title: "Music Lounge – MERN Stack Spotify Clone",
-  image: "/MusicL.png",
-  description:
-    "A full-stack Spotify-inspired music platform with real-time messaging, user presence, song and album management, and secure authentication.",
-  href: "https://music-lounge-mern.onrender.com/",
-  comingSoon: false,
-  tags: [
-    "MongoDB",
-    "Express.js",
-    "React",
-    "Node.js",
-    "TypeScript",
-    "Clerk",
-    "Tailwind",
-    "Socket.IO",
-    "Cloudinary",
-    "axios",
-  ],
-{
-  id: "nuvue-social",
-  title: "📸 Nuvue – Social Media App (FastAPI + React)",
-  image: "NuvueSocialApp.png",
-  description:
-    "Nuvue is a fullstack Instagram-style app where users can register, log in, create posts, comment, and interact in a clean, responsive UI.",
-  href: "https://nuvue-phi.vercel.app/",
-  comingSoon: false,
-  tags: [
-    "FastAPI",
-    "React",
-    "TailwindCSS",
-    "PostgreSQL",
-    "SQLAlchemy",
-    "JWT Auth",
-    "bcrypt",
-    "Uvicorn",
-    "Python",
-  ],
-},
+    id: "music-lounge",
+    title: "Music Lounge – MERN Stack Spotify Clone",
+    image: "/MusicL.png",
+    description:
+      "A full-stack Spotify-inspired music platform with real-time messaging, user presence, song and album management, and secure authentication.",
+    href: "https://music-lounge-mern.onrender.com/",
+    comingSoon: false,
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Clerk",
+      "Tailwind",
+      "Socket.IO",
+      "Cloudinary",
+      "axios",
+    ],
+  },
+  {
+    id: "nuvue-social",
+    title: "📸 Nuvue – Social Media App (FastAPI + React)",
+    image: "NuvueSocialApp.png",
+    description:
+      "Nuvue is a fullstack Instagram-style app where users can register, log in, create posts, comment, and interact in a clean, responsive UI.",
+    href: "https://nuvue-phi.vercel.app/",
+    comingSoon: false,
+    tags: [
+      "FastAPI",
+      "React",
+      "TailwindCSS",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "JWT Auth",
+      "bcrypt",
+      "Uvicorn",
+      "Python",
+    ],
+  },
+];
+
 
 export default function ProjectsPage() {
   return (
