@@ -2,7 +2,8 @@ import React from "react";
 import { FiExternalLink, FiArrowLeft } from "react-icons/fi";
 import Link from "next/link";
 
-export const projects = [
+export default function ProjectsPage() {
+  const projects = [
   {
     id: "music-loungeF",
     title: "Music Lounge (Flask) – Real-Time Chat & Music App",
@@ -180,12 +181,10 @@ export const projects = [
   },
 ];
 
-
-export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-[#000005] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        {/* Header with back button */}
+        {/* Header */}
         <header className="mb-12">
           <Link
             href="/"
@@ -201,8 +200,7 @@ export default function ProjectsPage() {
             </span>
           </h1>
           <p className="mt-4 text-gray-400 text-center max-w-2xl mx-auto">
-            A collection of my work showcasing full-stack development skills and
-            creative solutions.
+            A collection of my work showcasing full-stack development skills and creative solutions.
           </p>
         </header>
 
