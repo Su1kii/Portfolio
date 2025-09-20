@@ -59,8 +59,7 @@ const About = () => {
           <div className="z-10 pr-36 sm:pr-48">
             <p className="headtext">Hi, I'm Steven Echeverria</p>
             <p className="subtext">
-              I build full-stack web applications with clean design, responsive
-              layouts, and real-world functionality using modern technologies.
+              I specialize in backend engineering — building scalable APIs, secure authentication, and database-driven systems. I also have supporting full-stack experience to deliver end-to-end functionality.
             </p>
           </div>
         </div>
@@ -138,8 +137,8 @@ const About = () => {
             </p>
             <p className="text-sm sm:text-base text-neutral-300">
               I specialize in using modern languages, frameworks, and tools that
-              help me build full-stack web applications that are fast, scalable,
-              and user-friendly.
+              help me build backend-focused fullstack applications that are fast, scalable,
+              and efficient.
             </p>
           </div>
 
