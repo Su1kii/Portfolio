@@ -27,7 +27,7 @@ export const FlipWords: React.FC<FlipWordsProps> = ({
   const currentWord = words[currentIndex];
 
   return (
-    <div className={twMerge("relative inline-block h-[1em]", className)}>
+    <div className={twMerge("flex justify-center relative w-full", className)}>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentWord}
@@ -35,7 +35,7 @@ export const FlipWords: React.FC<FlipWordsProps> = ({
           animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
           exit={{ opacity: 0, y: -20, scale: 1.1, filter: "blur(4px)" }}
           transition={{ duration: 0.6 }}
-          className="absolute top-0 left-0 w-full"
+          className="inline-flex justify-center"
         >
           {currentWord.split(" ").map((word, wordIndex) => (
             <motion.span
