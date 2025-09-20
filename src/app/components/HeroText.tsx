@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FlipWords } from "./FlipWord";
 
 const HeroText = () => {
-  const words = ["Fast", "Secure", "Scalable", "Modern"];
+  const words = ["APIs", "Databases", "Cloud", "Security"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -32,7 +32,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ duration: 0.3 }}
           >
-            A Full-Stack <br /> Developer Building
+            A Backend <br /> Engineer Focused on
           </motion.p>
 
           <motion.div
@@ -46,16 +46,7 @@ const HeroText = () => {
               className="font-black text-white text-8xl"
             />
           </motion.div>
-
-          <motion.p
-            className="text-4xl font-medium text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ duration: 0.3 }}
-          >
-            Web Apps
-          </motion.p>
+        
         </div>
       </div>
 
