@@ -269,12 +269,12 @@ export const experiences = [
   },
   {
   title: "Backend Developer",
-  job: "Freelance / Independent Contractor",
+  job: "Freelance",
   date: "May 2025 – Present",
   contents: [
-    "Delivered a full dealership platform with Next.js, Prisma, PostgreSQL, and Stripe payments.",
-    "Implemented secure backend infrastructure with Clerk authentication, recurring payments, and file uploads.",
-    "Automated invoice generation and agreement tracking in an admin dashboard."
+    "Architected and delivered a full-featured dealership platform leveraging Next.js, Prisma, PostgreSQL, and Stripe, enabling seamless inventory and payment management.",
+    "Built secure, scalable backend infrastructure with Clerk authentication, recurring payment workflows, and robust file upload handling.",
+    "Automated invoice generation and agreement tracking in a comprehensive admin dashboard, improving operational efficiency and reducing manual errors.",
+    "Designed database schemas and optimized queries for high-performance data retrieval, ensuring fast, reliable application behavior."
   ],
 }
-];
